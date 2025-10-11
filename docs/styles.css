@@ -1,0 +1,68 @@
+/* ---------- GENERAL ---------- */
+
+/* Fuente general */
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* Enlaces */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- LOGO FLOTANTE ---------- */
+
+#custom-logo {
+  position: fixed;      /* se queda fijo al hacer scroll */
+  bottom: 30px;         /* distancia desde abajo */
+  right: 20px;          /* distancia desde la derecha */
+  height: 15vh;      /* tamaño del alto */
+  width: auto;        /* mantiene proporciones */
+  z-index: 1000;        /* encima del contenido */
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  background-color: #004d40 !important; /* verde oscuro */
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+/* ---------- SECCIONES ---------- */
+section {
+  padding: 2rem 1rem;
+}
+
+/* --- Footer DECRAST --- */
+.site-footer {
+  border-top: 2px solid #3c9a77; /* línea superior en tono minty */
+  color: #444;                   /* texto oscuro, legible */
+  background: transparent;       /* sin fondo */
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+.footer-content {
+  max-width: 900px;   /* mismo ancho que el contenido principal */
+  margin: 0 auto;
+}
+
+.footer-content a {
+  color: #3c9a77;      /* verde del tema minty */
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
